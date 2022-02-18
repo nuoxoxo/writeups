@@ -1,5 +1,5 @@
 ## Simple Question of Logic 1
-- use this in both fields (cf. [CTF101](https://ctf101.org/web-exploitation/sql-injection/what-is-sql-injection/) . [inject](https://d00mfist.gitbooks.io/ctf/content/sql-injections.html))
+- use this in both fields ([ctf101](https://ctf101.org/web-exploitation/sql-injection/what-is-sql-injection/) . [sqlmap](https://d00mfist.gitbooks.io/ctf/content/sql-injections.html) . [hacktricks](https://book.hacktricks.xyz/pentesting-web/login-bypass))
 ```sh
 # classic login bypass
 
