@@ -26,3 +26,4 @@ $ (x=64; while [ $x -gt 0 ]; do echo -n "A"; x=$(( $x - 1 )); done) | nc challen
 - `exiftool _`
 
 # F5 not allowed
+(no viable solution)
