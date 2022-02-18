@@ -1,1 +1,6 @@
-# CTF_writeups
+- 42CTF
+  - [-intro-](https://github.com/nuoxoxo/CTF_writeups/blob/main/42ctf__intro.md)
+  - [crypto](https://github.com/nuoxoxo/CTF_writeups/blob/main/42ctf__crypto.md)
+- PicoGym
+  - [Beginner picoMini 2022](https://play.picoctf.org/practice?originalEvent=69)
+  - [crypto](https://github.com/nuoxoxo/CTF_writeups/blob/main/pico__crypto.md)
