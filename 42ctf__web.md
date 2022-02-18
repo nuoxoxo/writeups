@@ -8,6 +8,6 @@
 ```
 - as if to say
 ```erlang
-$query = "select * from users where user = '/null/' OR '1'='1' and pw = '/null/' OR '1'='1'";
+$query = "select * from users where username = '/null/' OR '1'='1' and password = '/null/' OR '1'='1'";
 ```
 ## Simple Question of Logic 2
