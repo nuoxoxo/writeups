@@ -3,11 +3,11 @@
 ```sh
 # classic login bypass
 
-' or '1'='1
-' or '1'='1
+x' or '1'='1
+x' or '1'='1
 ```
 - as if to say
 ```erlang
-$query = "select * from users where username = '/null/' OR '1'='1' and password = '/null/' OR '1'='1'";
+$query = "select * from users where username = 'x' OR '1'='1' and password = 'x' OR '1'='1'";
 ```
 ## Simple Question of Logic 2
