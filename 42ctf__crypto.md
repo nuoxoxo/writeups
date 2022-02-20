@@ -8,7 +8,7 @@ $ brew install coreutils  # in order to use base32
 $ cat message_9XpaGRS.txt | base64 -d | base32 -d | xxd -r -p
 ```
 ## We need a pattern
-- letter frequency in english
+letter frequency in english
 ```erlang
 ╝±╩ ¥║£║ ╗═ ┴±╔£ ¤╬╣╦:
 now here is your flag
@@ -19,7 +19,7 @@ now here is your flag
 ┼ ¿ ¤
 c t f
 
-# Further hint
+# Frequency
 ║: 1095
 ¿: 874
 ±: 704
