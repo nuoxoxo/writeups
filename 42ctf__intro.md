@@ -2,7 +2,7 @@
 ```sh
 # ROT10
 
-$ wget https://www.42ctf.org/media/challenges/ancient_crypto.txt
+$ wget _
 $ cat ancient_crypto.txt | tr 'k-za-jK-ZA-J' 'a-zA-Z'
 ```
 similar to [pico.144](https://play.picoctf.org/practice/challenge/144)
