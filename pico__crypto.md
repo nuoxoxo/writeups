@@ -8,6 +8,6 @@ cf. [ancient crypto](https://www.42ctf.org/en/ctfs/intro/ancient_crypto)
 ```sh
 # ROT10
 
-$ wget https://www.42ctf.org/media/challenges/ancient_crypto.txt
+$ wget _
 $ cat ancient_crypto.txt | tr 'k-za-jK-ZA-J' 'a-zA-Z'
 ```
