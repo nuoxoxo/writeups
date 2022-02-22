@@ -9,8 +9,8 @@
 import hashlib
 
 #comp = ['free', 'iliad', '42', 'mediawan', 'scaleway']
-comp = ['Free', 'Iliad', '42', 'Mediawan', 'Scaleway']
 #name = ['delphine', 'elisa', 'michel', 'camille', 'john', 'jules']
+comp = ['Free', 'Iliad', '42', 'Mediawan', 'Scaleway']
 name = ['Delphine', 'Elisa', 'Michel', 'Camille', 'John', 'Jules']
 
 for i in range(43):
