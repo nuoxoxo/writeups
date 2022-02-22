@@ -6,6 +6,6 @@
   - [Stegano](https://github.com/nuoxoxo/writeups/blob/main/42ctf__stego.md)
   - [Web](https://github.com/nuoxoxo/writeups/blob/main/42ctf__web.md)
 - PicoGym
-  - [Beginner picoMini 2022](https://github.com/nuoxoxo/CTF_writeups/blob/main/pico__beginner_mini_2022.md)
-  - [Crypto](https://github.com/nuoxoxo/CTF_writeups/blob/main/pico__crypto.md)
   - [Web](https://github.com/nuoxoxo/writeups/blob/main/pico__web.md)
+  - [Crypto](https://github.com/nuoxoxo/CTF_writeups/blob/main/pico__crypto.md)
+  - [Beginner picoMini 2022](https://github.com/nuoxoxo/CTF_writeups/blob/main/pico__beginner_mini_2022.md)
