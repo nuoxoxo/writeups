@@ -29,7 +29,7 @@ $ curl -H "user-agent: PicoBrowser" \
 -H "DNT: 1" \
 -H "origin: sweden" \
 -H "x-forwarded-for: 31.44.224.0" \
--H "accept-language: sv-swe"
+-H "accept-language: sv-swe" \
 http://mercury.picoctf.net:34588
 ```
 
