@@ -33,6 +33,23 @@ $ curl -H "user-agent: PicoBrowser" \
 http://mercury.picoctf.net:34588
 ```
 
+## 🉑: Some Assembly Required 1 - `152`
+###### hint: path in script
+
+## 🇭🇺: scavenger hunt - `161`
+```scala
+#!/bin/bash
+
+alias ggs='grep -i part | sed "s/^.*: //" | sed "s/ .*$//" '
+url='http://mercury.picoctf.net:55079'
+
+curl -s ${url} | ggs
+curl -s ${url}/mycss.css | ggs
+curl -s ${url}/robots.txt | ggs
+curl -s ${url}/.htaccess | ggs
+curl -s ${url}/.DS_Store | ggs
+```
+
 ## :baseball: - login - `200`
 ###### hint: base64
 
