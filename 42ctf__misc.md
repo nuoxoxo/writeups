@@ -34,9 +34,10 @@ $ cat bf.txt | grep 55d91e
 ```
 
 ## smiley
-```sh
+```scala
 $ file _
 $ strings _
 $ nm _
 $ objdump -p _
+$ xxd ./smiley | head
 ```
