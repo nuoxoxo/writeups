@@ -35,6 +35,8 @@ $ cat bf.txt | grep 55d91e
 
 ## smiley
 ```sh
-$ nm smiley
-$ objdump -p smiley
+$ file _
+$ strings _
+$ nm _
+$ objdump -p _
 ```
