@@ -47,7 +47,7 @@ $ curl -H "user-agent: PicoBrowser" \
 http://mercury.picoctf.net:34588
 ```
 
-## 🥕 - Mod 26 - `144`
+## :carrot: - Mod 26 - `144`
 ```sh
 # ROT13
 $ echo _ | tr 'n-za-mN-ZA-M' 'a-zA-z'
@@ -57,10 +57,10 @@ $ echo _ | tr "A-Za-z" "N-ZA-Mn-za-m"
 
 ```
 
-## 🉑 - Some Assembly Required 1 - `152`
+## :: - Some Assembly Required 1 - `152`
 ###### hint: path in script
 
-## 🇭🇺 - scavenger hunt - `161`
+## :hungary: - scavenger hunt - `161`
 [script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_scavenger_hunt.sh)
 ```r
 #!/bin/bash
@@ -83,6 +83,11 @@ curl -s http://mercury.picoctf.net:55079/mycss.css | grep -i part | sed "s/^.*: 
 curl -s http://mercury.picoctf.net:55079/robots.txt | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
 curl -s http://mercury.picoctf.net:55079/.htaccess | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
 curl -s http://mercury.picoctf.net:55079/.DS_Store | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
+```
+
+## :snake: - Python Wrangling - `166`
+```scala
+$ wget _ _ _ && cat pw.txt | python3 ende.py -d flag.txt.en
 ```
 
 ## :baseball: - login - `200`
