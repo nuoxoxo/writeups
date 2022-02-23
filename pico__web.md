@@ -10,6 +10,7 @@ $ curl http://jupiter.challenges.picoctf.org:36474/_.html
 ```
 
 ## 🕵️‍♀️ - Insp3ct0r - `18`
+[script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_insp3ct0r.sh)
 ```r
 #!/bin/bash
 
@@ -46,10 +47,21 @@ $ curl -H "user-agent: PicoBrowser" \
 http://mercury.picoctf.net:34588
 ```
 
+## 🥕 - Mod 26 - `144`
+```sh
+# ROT13
+$ echo _ | tr 'n-za-mN-ZA-M' 'a-zA-z'
+
+# or alternatively
+$ echo _ | tr "A-Za-z" "N-ZA-Mn-za-m"
+
+```
+
 ## 🉑 - Some Assembly Required 1 - `152`
 ###### hint: path in script
 
 ## 🇭🇺 - scavenger hunt - `161`
+[script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_scavenger_hunt.sh)
 ```r
 #!/bin/bash
 
