@@ -1,4 +1,4 @@
-## :robot: - where are the robots - `4`
+# :robot: - where are the robots - `4`
 ```sh
 $ curl http://jupiter.challenges.picoctf.org:36474/robots.txt
 . . .
@@ -9,7 +9,7 @@ Disallow: /_.html
 $ curl http://jupiter.challenges.picoctf.org:36474/_.html
 ```
 
-## 🕵️‍♀️ - Insp3ct0r - `18`
+# :female_detective: - Insp3ct0r - `18`
 [script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_insp3ct0r.sh)
 ```r
 #!/bin/bash
@@ -22,18 +22,17 @@ curl -s ${url}/mycss.css | cmd
 curl -s ${url}/myjs.js | cmd
 ```
 
-
-## :wood: - logon - `46`
+# :wood: - logon - `46`
 - in chrome do `chrome://flags`
 - set Partitioned cookies to enable
 - relaunch and set admin cookie to true 
 
-## :thread: - dont-use-client-side - `66`
+# :thread: - dont-use-client-side - `66`
 ```r
 $ curl http://jupiter.challenges.picoctf.org:37821 | grep substring 
 ```
 
-## :question: - who are you - `142`
+# :question: - who are you - `142`
 ```r
 # HTTP Requests for Comments (RFC)
 
@@ -47,7 +46,7 @@ $ curl -H "user-agent: PicoBrowser" \
 http://mercury.picoctf.net:34588
 ```
 
-## :carrot: - Mod 26 - `144`
+# :carrot: - Mod 26 - `144`
 ```sh
 # ROT13
 $ echo _ | tr 'n-za-mN-ZA-M' 'a-zA-z'
@@ -57,10 +56,10 @@ $ echo _ | tr "A-Za-z" "N-ZA-Mn-za-m"
 
 ```
 
-## :: - Some Assembly Required 1 - `152`
+# :accept: - Some Assembly Required 1 - `152`
 ###### hint: path in script
 
-## :hungary: - scavenger hunt - `161`
+# :hungary: - scavenger hunt - `161`
 [script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_scavenger_hunt.sh)
 ```r
 #!/bin/bash
@@ -85,12 +84,12 @@ curl -s http://mercury.picoctf.net:55079/.htaccess | grep -i part | sed "s/^.*: 
 curl -s http://mercury.picoctf.net:55079/.DS_Store | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
 ```
 
-## :snake: - Python Wrangling - `166`
+# :snake: - Python Wrangling - `166`
 ```scala
 $ wget _ _ _ && cat pw.txt | python3 ende.py -d flag.txt.en
 ```
 
-## :baseball: - login - `200`
+# :baseball: - login - `200`
 ###### hint: base64
 
 ## :cow: - caas - `202`
