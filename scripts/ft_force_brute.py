@@ -1,8 +1,5 @@
 import hashlib
 
-#comp = ['free', 'iliad', '42', 'mediawan', 'scaleway']
-#name = ['delphine', 'elisa', 'michel', 'camille', 'john', 'jules']
-
 comp = ['Free', 'Iliad', '42', 'Mediawan', 'Scaleway']
 name = ['Delphine', 'Elisa', 'Michel', 'Camille', 'John', 'Jules']
 
