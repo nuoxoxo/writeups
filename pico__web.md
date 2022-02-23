@@ -9,6 +9,19 @@ Disallow: /_.html
 $ curl http://jupiter.challenges.picoctf.org:36474/_.html
 ```
 
+## 🕵️‍♀️ - Insp3ct0r
+```r
+#!/bin/bash
+
+alias cmd='grep -i flag | sed "s/^.*flag: //" | sed "s/ .*$//" '
+url='https://jupiter.challenges.picoctf.org/problem/41511'
+
+curl -s ${url}/index.html | cmd
+curl -s ${url}/mycss.css | cmd
+curl -s ${url}/myjs.js | cmd
+```
+
+
 ## :wood: - logon - `46`
 - in chrome do `chrome://flags`
 - set Partitioned cookies to enable
@@ -40,14 +53,14 @@ http://mercury.picoctf.net:34588
 ```r
 #!/bin/bash
 
-alias ggs='grep -i part | sed "s/^.*: //" | sed "s/ .*$//" '
+alias cmd='grep -i part | sed "s/^.*: //" | sed "s/ .*$//" '
 url='http://mercury.picoctf.net:55079'
 
-curl -s ${url} | ggs
-curl -s ${url}/mycss.css | ggs
-curl -s ${url}/robots.txt | ggs
-curl -s ${url}/.htaccess | ggs
-curl -s ${url}/.DS_Store | ggs
+curl -s ${url} | cmd
+curl -s ${url}/mycss.css | cmd
+curl -s ${url}/robots.txt | cmd
+curl -s ${url}/.htaccess | cmd
+curl -s ${url}/.DS_Store | cmd
 ```
 ###### edited from
 ```sh
