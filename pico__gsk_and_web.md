@@ -59,6 +59,21 @@ $ echo _ | tr "A-Za-z" "N-ZA-Mn-za-m"
 # :accept: - Some Assembly Required 1 - `152`
 ###### hint: path in script
 
+# :cat: - Nice netcat - `156`
+```sh
+import socket
+
+host = 'mercury.picoctf.net'
+port = 49039
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((host, port))
+data = s.recv(256).decode('utf-8').split()
+L = [int(n) for n in data]
+for c in L:
+    print(chr(c), end='')
+s.close()
+```
+
 # :hungary: - scavenger hunt - `161`
 ```r
 #!/bin/bash
