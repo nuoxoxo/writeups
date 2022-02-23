@@ -1,6 +1,6 @@
 - PicoGym
   - [Beginner picoMini 2022](https://github.com/nuoxoxo/CTF_writeups/blob/main/pico__beginner_mini_2022.md)
-  - [Web](https://github.com/nuoxoxo/writeups/blob/main/pico__web.md) . 
+  - [General / Web](https://github.com/nuoxoxo/writeups/blob/main/pico__gsk_and_web.md) . 
 [Crypto](https://github.com/nuoxoxo/CTF_writeups/blob/main/pico__crypto.md)
 - 42CTF
   - [-Intro-](https://github.com/nuoxoxo/CTF_writeups/blob/main/42ctf__intro.md) . 
