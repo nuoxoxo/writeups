@@ -37,7 +37,7 @@ http://mercury.picoctf.net:34588
 ###### hint: path in script
 
 ## 🇭🇺 - scavenger hunt - `161`
-```scala
+```r
 #!/bin/bash
 
 alias ggs='grep -i part | sed "s/^.*: //" | sed "s/ .*$//" '
@@ -48,6 +48,16 @@ curl -s ${url}/mycss.css | ggs
 curl -s ${url}/robots.txt | ggs
 curl -s ${url}/.htaccess | ggs
 curl -s ${url}/.DS_Store | ggs
+```
+###### edited from
+```sh
+#!/bin/bash
+
+curl -s -n http://mercury.picoctf.net:55079 | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
+curl -s http://mercury.picoctf.net:55079/mycss.css | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
+curl -s http://mercury.picoctf.net:55079/robots.txt | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
+curl -s http://mercury.picoctf.net:55079/.htaccess | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
+curl -s http://mercury.picoctf.net:55079/.DS_Store | grep -i part | sed "s/^.*: //" | sed "s/ .*$//"
 ```
 
 ## :baseball: - login - `200`
