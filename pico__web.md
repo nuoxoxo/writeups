@@ -105,3 +105,8 @@ $ curl "https://caas.mars.picoctf.net/cowsay/xxx;cat f*"
 ```sh
 $ strings warm | grep pico
 ```
+
+# :information_source: - information - `186`
+```scala
+$ exiftool cat.jpg | grep -i license | sed "s/^.*: //" | base64 -d
+```
