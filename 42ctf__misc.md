@@ -21,7 +21,7 @@ for i in range(43):
                 res = hashlib.md5(s.encode())
                 print(s, res.hexdigest())
 ```
-```j
+```sh
 $ python3 bf.py > bf.txt
 $ cat bf.txt | grep 55d91e
 . . .
