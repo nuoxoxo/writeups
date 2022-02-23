@@ -8,7 +8,11 @@ $ cat ancient_crypto.txt | tr 'k-za-jK-ZA-J' 'a-zA-Z'
 similar to [pico.144](https://play.picoctf.org/practice/challenge/144)
 ```sh
 # ROT13
-$ echo "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_uJdSftmh}" | tr ‘n-za-mN-ZA-M’ ‘a-zA-z’
+$ echo _ | tr 'n-za-mN-ZA-M' 'a-zA-z'
+
+# or alternatively
+$ echo _ | tr "A-Za-z" "N-ZA-Mn-za-m"
+
 ```
 # My Little Pwn
 ```sh
