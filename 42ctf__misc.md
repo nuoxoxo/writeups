@@ -1,9 +1,11 @@
 ## Dorkside
 - google `"bill" https://cse.buffalo.edu/` & find `howtoaccessreadings.txt`
+
 ## Norminet
 - pastebin `xn`
 - twitter search `(from:42norminet) until:2017-03-10 since:2017-02-01`
 - camelCase
+
 ## Force brute
 [python](https://github.com/nuoxoxo/writeups/blob/main/scripts/ft_force_brute.py)
 ```py
@@ -29,4 +31,10 @@ $ cat bf.txt | grep 55d91e
 . . .
 55d91e34650fd1a804cd94f5f39b34fb _
 . . .
+```
+
+## smiley
+```sh
+$ nm smiley
+$ objdump -p smiley
 ```
