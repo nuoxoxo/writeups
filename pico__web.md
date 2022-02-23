@@ -33,10 +33,10 @@ $ curl -H "user-agent: PicoBrowser" \
 http://mercury.picoctf.net:34588
 ```
 
-## 🉑: Some Assembly Required 1 - `152`
+## 🉑 - Some Assembly Required 1 - `152`
 ###### hint: path in script
 
-## 🇭🇺: scavenger hunt - `161`
+## 🇭🇺 - scavenger hunt - `161`
 ```scala
 #!/bin/bash
 
