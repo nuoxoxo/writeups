@@ -4,12 +4,14 @@
 - pastebin `xn`
 - twitter search `(from:42norminet) until:2017-03-10 since:2017-02-01`
 - camelCase
-## 
+## Force brute
+[python](https://github.com/nuoxoxo/writeups/blob/main/scripts/ft_force_brute.py)
 ```py
 import hashlib
 
 #comp = ['free', 'iliad', '42', 'mediawan', 'scaleway']
 #name = ['delphine', 'elisa', 'michel', 'camille', 'john', 'jules']
+
 comp = ['Free', 'Iliad', '42', 'Mediawan', 'Scaleway']
 name = ['Delphine', 'Elisa', 'Michel', 'Camille', 'John', 'Jules']
 
