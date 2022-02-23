@@ -10,7 +10,6 @@ $ curl http://jupiter.challenges.picoctf.org:36474/_.html
 ```
 
 # :female_detective: - Insp3ct0r - `18`
-[script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_insp3ct0r.sh)
 ```r
 #!/bin/bash
 
@@ -21,6 +20,7 @@ curl -s ${url}/index.html | cmd
 curl -s ${url}/mycss.css | cmd
 curl -s ${url}/myjs.js | cmd
 ```
+[script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_insp3ct0r.sh)
 
 # :wood: - logon - `46`
 - in chrome do `chrome://flags`
@@ -60,7 +60,6 @@ $ echo _ | tr "A-Za-z" "N-ZA-Mn-za-m"
 ###### hint: path in script
 
 # :hungary: - scavenger hunt - `161`
-[script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_scavenger_hunt.sh)
 ```r
 #!/bin/bash
 
@@ -73,6 +72,8 @@ curl -s ${url}/robots.txt | cmd
 curl -s ${url}/.htaccess | cmd
 curl -s ${url}/.DS_Store | cmd
 ```
+[script](https://github.com/nuoxoxo/writeups/blob/main/scripts/pico_scavenger_hunt.sh)
+
 ###### edited from
 ```sh
 #!/bin/bash
