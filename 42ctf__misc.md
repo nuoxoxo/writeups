@@ -24,4 +24,7 @@ for i in range(43):
 ```j
 $ python3 bf.py > bf.txt
 $ cat bf.txt | grep 55d91e
+. . .
 55d91e34650fd1a804cd94f5f39b34fb _
+. . .
+```
