@@ -9,8 +9,6 @@ $ cat message_9XpaGRS.txt | base64 -d | base32 -d | xxd -r -p
 ```
 
 ## Very Short Crypto
-
-Decoded using E (Small E attack)
 ```sh
 #!/bin/bash
 
@@ -28,7 +26,7 @@ echo "- public key value (integer) n\n"
 cat ciphertext | xargs python -c "import sys; print(int(str(sys.argv[1]), 16))"
 echo "- ciphertext value (integer) c"
 ```
-###### throw all the numbers on [dcode.fr/rsa-cipher](https://www.dcode.fr/rsa-cipher)
+###### then decode using E (Small E attack) [dcode.fr/rsa-cipher](https://www.dcode.fr/rsa-cipher)
 —\
 [shell script](https://github.com/nuoxoxo/writeups/blob/main/scripts/ft_very_short_crypto.sh)
 
