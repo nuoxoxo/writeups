@@ -9,6 +9,8 @@ $ cat message_9XpaGRS.txt | base64 -d | base32 -d | xxd -r -p
 ```
 
 ## Very Short Crypto
+
+Decoded using E (Small E attack)
 ```sh
 #!/bin/bash
 
