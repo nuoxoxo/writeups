@@ -15,8 +15,8 @@ $ cat message_9XpaGRS.txt | base64 -d | base32 -d | xxd -r -p
 openssl rsa -noout -text -inform PEM -in pub.pem -pubin > pubkey
 cat pubkey | sed -e 's/^Pub.*//' -e 's/^Mod.*//' -e 's/Exp.*//' -e 's/://g' -e 's/ //g' > temp
 tr -d '\n' < temp > N
-rm temp
 cat pubkey && echo ""
+rm temp
 
 cat N && echo "\n- modulus edited\n"
 
